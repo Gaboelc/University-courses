@@ -1,0 +1,101 @@
+"item_id","category_id","product_name","product_price"
+1,2,"Molasses - Fancy",63.42
+2,10,"Wine - Cotes Du Rhone",78.69
+3,1,"Wine - Jackson Triggs Okonagan",45.57
+4,6,"Otomegusa Dashi Konbu",62.1
+5,1,"Whmis Spray Bottle Graduated",48.41
+6,3,"Wine - Penfolds Koonuga Hill",19.5
+7,11,"Scallops - Live In Shell",50.8
+8,7,"Swiss Chard - Red",27.44
+9,1,"Knife Plastic - White",27.24
+10,8,"Sardines",88.23
+11,4,"Sambuca - Opal Nera",36.8
+12,7,"Pimento - Canned",8.34
+13,4,"Muffin Batt - Blueberry Passion",47.57
+14,10,"Pepper - Pablano",71.44
+15,11,"Soup Campbells - Italian Wedding",44.98
+16,6,"Jicama",60.16
+17,8,"Sambuca - Ramazzotti",61.4
+18,6,"Wine - Red, Black Opal Shiraz",6.63
+19,8,"Wine - Red, Antinori Santa",15.76
+20,1,"Beef - Striploin",54.52
+21,8,"Squash - Pattypan, Yellow",9.56
+22,13,"Brandy Cherry - Mcguinness",32.29
+23,3,"Wine - Jackson Triggs Okonagan",1.39
+24,4,"Grapes - Red",63.57
+25,5,"Chocolate Liqueur - Godet White",96.19
+26,15,"Wine - Valpolicella Masi",12.75
+27,11,"Tequila - Sauza Silver",1.81
+28,3,"Nut - Pistachio, Shelled",47.01
+29,8,"Milk 2% 500 Ml",90.89
+30,10,"Soup - Campbells Pasta Fagioli",64.02
+31,6,"Salsify, Organic",7.05
+32,10,"Soup Campbells",43.66
+33,15,"Dasheen",46.6
+34,7,"Chip - Potato Dill Pickle",85.85
+35,14,"Wine - Zinfandel Rosenblum",88.71
+36,5,"Mint - Fresh",13.6
+37,5,"Cheese - Cheddar, Medium",53.73
+38,1,"Pasta - Cappellini, Dry",12.32
+39,10,"Lemonade - Kiwi, 591 Ml",77.36
+40,14,"Bread - Focaccia Quarter",69.91
+41,5,"Lemonade - Mandarin, 591 Ml",51.34
+42,5,"Peppercorns - Pink",6.65
+43,7,"Thermometer Digital",8.98
+44,6,"Fruit Mix - Light",29.95
+45,9,"Wine - Sauvignon Blanc",24.12
+46,4,"Wine - Red, Pelee Island Merlot",57.74
+47,10,"Vinegar - Rice",7.17
+48,5,"Nut - Pecan, Pieces",28.12
+49,7,"Piping - Bags Quizna",89.48
+50,13,"Ecolab Crystal Fusion",2.18
+51,4,"Yogurt - Blueberry, 175 Gr",89.03
+52,10,"Sprite, Diet - 355ml",7.09
+53,1,"Trueblue - Blueberry Cranberry",81.67
+54,1,"Shrimp - 16/20, Peeled Deviened",55.38
+55,3,"Amarula Cream",81.89
+56,8,"Triple Sec - Mcguinness",19.02
+57,2,"Pate - Liver",21.11
+58,12,"Kellogs All Bran Bars",26.55
+59,4,"Cheese - Cheddar, Mild",74.93
+60,9,"Graham Cracker Mix",9.66
+61,4,"Beans - Black Bean, Canned",48.75
+62,9,"Muffin Orange Individual",28.62
+63,13,"Mushroom Morel Fresh",6.59
+64,13,"Octopus",56.05
+65,1,"Nut - Macadamia",74.45
+66,15,"Cookie Dough - Double",34.24
+67,4,"Soup - Campbells, Lentil",20.71
+68,15,"Gooseberry",4.54
+69,5,"Leeks - Baby, White",91.06
+70,5,"Apricots - Halves",32.47
+71,12,"Wine - Casablanca Valley",90.31
+72,11,"Wine - Fat Bastard Merlot",69.83
+73,13,"Cucumber - Pickling Ontario",74.83
+74,2,"Jolt Cola",9.06
+75,4,"Kellogs Cereal In A Cup",23.37
+76,15,"Cabbage Roll",36.6
+77,4,"Food Colouring - Red",56.1
+78,12,"Lid - High Heat, Super Clear",87.08
+79,2,"Sausage - Andouille",26.87
+80,7,"Milk - 2% 250 Ml",78.8
+81,12,"Shrimp - Black Tiger 8 - 12",61.83
+82,9,"Wine - Chateau Aqueria Tavel",7.86
+83,6,"Spice - Onion Powder Granulated",18.01
+84,10,"Potatoes - Mini White 3 Oz",88.76
+85,14,"Appetizer - Chicken Satay",68.6
+86,7,"Tomatoes - Plum, Canned",67.91
+87,1,"Cheese Cloth No 100",95.97
+88,8,"Sobe - Green Tea",50.39
+89,8,"Chicken - Whole Fryers",22.49
+90,9,"Lemonade - Natural, 591 Ml",74.02
+91,3,"Cod - Fillets",21.9
+92,13,"Cod - Black Whole Fillet",49.48
+93,13,"Lettuce - Spring Mix",45.4
+94,9,"Lettuce - Red Leaf",78.46
+95,2,"Chilli Paste, Hot Sambal Oelek",65.05
+96,5,"Wanton Wrap",98.01
+97,3,"Wine - White, Pinot Grigio",62.73
+98,14,"Venison - Racks Frenched",92.51
+99,3,"Muffin Chocolate Individual Wrap",99.45
+100,7,"V8 Splash Strawberry Kiwi",90.87

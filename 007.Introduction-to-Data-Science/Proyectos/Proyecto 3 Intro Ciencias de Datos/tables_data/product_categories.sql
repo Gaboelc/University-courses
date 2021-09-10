@@ -1,0 +1,15 @@
+insert into product_categories (category_id, category_name) values (1, 'Home');
+insert into product_categories (category_id, category_name) values (2, 'Arms');
+insert into product_categories (category_id, category_name) values (3, 'Books');
+insert into product_categories (category_id, category_name) values (4, 'Industrial');
+insert into product_categories (category_id, category_name) values (5, 'Grocery');
+insert into product_categories (category_id, category_name) values (6, 'Computers');
+insert into product_categories (category_id, category_name) values (7, 'Shoes');
+insert into product_categories (category_id, category_name) values (8, 'Men Clothing');
+insert into product_categories (category_id, category_name) values (9, 'Electronics');
+insert into product_categories (category_id, category_name) values (10, 'Baby');
+insert into product_categories (category_id, category_name) values (11, 'Toys');
+insert into product_categories (category_id, category_name) values (12, 'Games');
+insert into product_categories (category_id, category_name) values (13, 'Outdoors');
+insert into product_categories (category_id, category_name) values (14, 'Woman Clothing');
+insert into product_categories (category_id, category_name) values (15, 'Kids');

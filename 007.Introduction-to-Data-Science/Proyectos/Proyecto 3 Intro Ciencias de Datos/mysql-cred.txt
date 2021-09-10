@@ -1,0 +1,4 @@
+-u doadmin
+-p vsb2fpulltnqzv8z
+-h mysql-leadproyecto-do-user-9099347-0.b.db.ondigitalocean.com
+-P 25060
