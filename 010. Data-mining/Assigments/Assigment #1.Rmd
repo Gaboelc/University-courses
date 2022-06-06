@@ -1,0 +1,113 @@
+---
+title: 'Assigment #1'
+author: "Gabriel Leon Castro"
+date: "10/1/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Programar en R, las siguientes funciones
+
+### a. Distancia entre dos individuos, considerando una métrica M.
+
+```{r}
+get_distance_between_points = function(v1, v2, x, y, m){
+  
+  #distance = sqrt(t(x-y)*m*(x-y))
+  distance = sqrt(((v2[1]-v1[1])^2+(v2[2]-v1[2])^2)*m)
+  
+  return(distance)
+  
+}
+```
+
+### b. Matriz de Varianza-Covarianza con una matriz de pesos D.
+
+```{r}
+get_covariance = function(df) {
+  colnames = colnames(df)
+  
+  for (col in colnames){
+    print(paste(col))
+  }
+  
+  
+  
+  n = length(x)
+  (sum(x*y)/(n-1))-(n/(n-1))*mean(x)*mean(y)
+}
+
+#get_covariance(df$mpg, df$mpg)
+
+```
+```{r}
+
+#colnames = colnames(df)
+colnames = c(1,2,3,4,5,6,7,8,9,10,11)
+rcolnames = rev(colnames)
+
+for (col in colnames){
+    #print(paste(col))
+  for (rcol in rcolnames){
+    print(paste(df[,col], df[,rcol]))
+    #n = length(df$col)
+    #(sum(df$col*df$rcol)/(n-1))-(n/(n-1))*mean(df$col)*mean(df$rcol)
+  }
+}
+
+```
+
+
+### c. Matriz de coorelacion.
+
+```{r}
+get_correlation = function(X, D){
+  cov = get_covariance(X,D)
+  
+  d_sd = diag(1/sqrt(diag(cov)), nrow = nrow(cov), ncol = ncol(cov))
+  r = d_sd %% cov %% d_sd
+  return (r)
+}
+
+```
+
+## 2. Aplicar las funciones programadas en la pregunta 1 en el dataset mtcars
+
+```{r}
+#install.packages('corrplot')
+library(corrplot)
+data("mtcars")
+df = mtcars
+#df = scale(df, center = TRUE, scale = FALSE)
+```
+
+### b. Se quiere que los pesos para los autos Porsche 914-2, Maserati Bora, Merc 450SLC de 15% cada uno, los pesos de los demás autos serán iguales.
+
+```{r}
+df
+```
+
+#### i. ¿Cuáles variables están más correlacionadas?
+
+```{r}
+
+df1 = subset(df, rownames(df) == "Maserati Bora" | rownames(df) == "Porsche 914-2" | rownames(df) == "Merc 450SLC")
+
+df2 = subset(df, !(rownames(df) == "Maserati Bora" | rownames(df) == "Porsche 914-2" | rownames(df) == "Merc 450SLC"))
+
+weighted_subset = df1*(df1*0.15)
+
+df = rbind(df2, weighted_subset)
+df
+```
+
+
+```{r}
+m = get_correlation(df)
+corrplot(m, order = 'hclust', addrect = 2)
+#cor(df)
+```
+
